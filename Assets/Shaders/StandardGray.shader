@@ -130,7 +130,7 @@ Shader "StandardGray"
                     half gray = max(max(color.r, color.g), color.b);
                 #endif
                 color.rgb = half3(gray, gray, gray);
-            #endif // _GRAY_DOT
+            #endif
                 return color;
             }
 
