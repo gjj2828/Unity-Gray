@@ -7,7 +7,7 @@ Shader "StandardGray"
         _Color("Color", Color) = (1,1,1,1)
         _MainTex("Albedo", 2D) = "white" {}
         // [Toggle] _Gray("Gray", Float) = 0.0
-        [Enum(Disable,0,Dot,1,Max,2)] _Gray("Gray", Int) = 0
+        [Enum(Disable,0,Dot,1,Max,2)] _Gray("Gray", Float) = 0
 
         _Cutoff("Alpha Cutoff", Range(0.0, 1.0)) = 0.5
 
